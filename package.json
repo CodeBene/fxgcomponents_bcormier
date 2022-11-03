@@ -1,0 +1,23 @@
+{
+  "name": "fxgcomponents_bcormier",
+  "version": "1.0.0",
+  "description": "pipeline deploiement composantes story book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeBene/fxgcomponents_bcormier.git"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": "Benoit Cormier-Gosselin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeBene/fxgcomponents_bcormier/issues"
+  },
+  "homepage": "https://github.com/CodeBene/fxgcomponents_bcormier#readme"
+}
