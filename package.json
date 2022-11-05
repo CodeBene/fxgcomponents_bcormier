@@ -1,6 +1,6 @@
 {
   "name": "fxgcomponents_bcormier",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "pipeline deploiement composantes story book",
   "main": "index.js",
   "scripts": {
