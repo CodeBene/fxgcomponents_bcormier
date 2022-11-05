@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import { Typography } from '../components/Typography/Typography';
+import { Typography } from '../src/components/Typography/Typography';
 
 export default {
   title: 'Components-TP1/Typography',
