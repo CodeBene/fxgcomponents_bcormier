@@ -29,7 +29,6 @@ jobs:
               with:
                   token: ${{ secrets.NPM_TOKEN }}
     deploy:
-      name: 🚀 Deploy
       runs-on: ubuntu-latest
       steps:
         - name: Install dependencies
