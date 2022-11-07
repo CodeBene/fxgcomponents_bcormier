@@ -44,7 +44,7 @@ jobs:
           with:
             local-dir: "storybook-static/"
             server-dir: "public_html/storybook/"
-            server: ${{ secrets.FTP_SERVOR }}
+            server: ${{ secrets.FTP_SERVER }}
             username: ${{ secrets.USERNAME_FTP }}
             password: ${{ secrets.FTP_PASSWORD }}
             protocol: ftps
