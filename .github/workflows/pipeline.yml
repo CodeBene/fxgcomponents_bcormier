@@ -37,12 +37,10 @@ jobs:
             node-version: 16
         - run: npm i
         - run: npm run build-storybook
-        - name: 📂 Sync files
-          uses: ./
           with:
+            local-dir: "storybook-static"
             server: ${{ secrets.FTP_SERVOR }}
             username: ${{ secrets.USERNAME_FTP }}
             password: ${{ secrets.FTP_PASSWORD }}
-            local-dir: ./storybook-static
             protocol: ftps
             port: 21
