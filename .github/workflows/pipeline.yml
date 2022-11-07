@@ -36,11 +36,11 @@ jobs:
           with:
             node-version: 16
         - run: yarn install
-        - run: yarn run build-storybook
+        - run: yarn build-storybook
         - name: 📂 Sync files
           uses: ./
           with:
-            local-dir: "storybook-static"
+            local-dir: "storybook-static/"
             server: ${{ secrets.FTP_SERVOR }}
             username: ${{ secrets.USERNAME_FTP }}
             password: ${{ secrets.FTP_PASSWORD }}
