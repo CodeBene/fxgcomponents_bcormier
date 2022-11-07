@@ -37,6 +37,8 @@ jobs:
             node-version: 16
         - run: npm i
         - run: npm run build-storybook
+        - name: 📂 Sync files
+          uses: ./
           with:
             local-dir: "storybook-static"
             server: ${{ secrets.FTP_SERVOR }}
