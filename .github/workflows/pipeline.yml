@@ -42,8 +42,8 @@ jobs:
         - name: 📂 Sync files
           uses: SamKirkland/FTP-Deploy-Action@4.3.2
           with:
-            local-dir: "./stories/"
-            server-dir: "public_html/storybook/"
+            local-dir: ./storybook-static/
+            server-dir: public_html/storybook/
             server: ${{ secrets.FTP_SERVER }}
             username: ${{ secrets.USERNAME_FTP }}
             password: ${{ secrets.FTP_PASSWORD }}
