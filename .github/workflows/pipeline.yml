@@ -38,7 +38,7 @@ jobs:
         - run: npm i
         - run: npm run build-storybook
         - name: 📂 Sync files
-          uses: ./
+          uses: ./main
           with:
             server: ${{ secrets.FTP_SERVOR }}
             username: ${{ secrets.USERNAME_FTP }}
