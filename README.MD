@@ -1,9 +1,12 @@
-# TP2 BCormier-Gosselin
+# Déploiement en continu
+Le fichier .yml exécute un déploiement de composantes React qui peuvent être affichées sous forme de storybook. Ce déploiement se fait en 3 étapes: 
 
-Etape 1 : tag
-etape 2 : publish 
-etape 3: deploy
-
+## Étape 1 : Version
+ Incrémentation de la version du package et ajout de tags au Git. 
+## Étape 2 : Publish
+Publication du package de composantes sur npmjs.com.  
+## Étape 3 : Deploy
+Déploiement vers un serveur FTP.
 # Activer le storybook de composantes React
 1. -yarn <br>pour installer les dépendances du projet. 
 
