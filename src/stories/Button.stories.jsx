@@ -27,3 +27,9 @@ Dashed.args = {
   type: 'dashed',
   text: 'Dashed Button',
 };
+
+export const Patate = Template.bind({});
+Patate.args = {
+  type: 'dashed',
+  text: 'Patate',
+};
